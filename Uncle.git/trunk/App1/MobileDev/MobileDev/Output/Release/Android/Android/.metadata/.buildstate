@@ -1,0 +1,86 @@
+rebuild-needed = false
+variant = Android/Android Release 
+success = true
+timestamp = 1376554034327
+output-main = D:\\\\MoSync\\\\workspace\\\\MobileDev\\\\Output\\\\Release\\\\Android\\\\Android\\\\package\\\\MobileDev.apk
+
+[files]
+LocalFiles/js/skel.min.js = 1375884542000
+LocalFiles/css/fonts/fontawesome-webfont.svg = 1367001862000
+LocalFiles/index.html = 1370506872000
+LocalFiles/style.css = 1376552298534
+LocalFiles/css/images/mobileUI-site-nav-opener-bg.svg = 1367001862000
+LocalFiles/css/fonts/fontawesome-webfont.ttf = 1367001862000
+LocalFiles/js/skel-panels.min.js = 1375884540000
+.mosyncproject = 1376552298816
+LocalFiles/js/wormhole.js = 1376552298515
+LocalFiles/images/pic04.jpg = 1367001862000
+.cproject = 1376552298470
+LocalFiles/images/pic02.jpg = 1367001862000
+LocalFiles/js/html5shiv.js = 1371659130000
+LocalFiles/right-sidebar.html = 1370506884000
+LocalFiles/images/pic07.jpg = 1367001862000
+LocalFiles/css/fonts/fontawesome-social-webfont.ttf = 1367001862000
+LocalFiles/js1/wormhole.js = 1376552298515
+LocalFiles/css/style-1000px.css = 1367001862000
+.settings/org.eclipse.core.resources.prefs = 1376552298477
+Resources/beep.wav = 1376552298552
+LocalFiles/css/fonts/fontawesome-social-webfont.eot = 1367001862000
+LocalFiles/css/images/shadow.png = 1367001862000
+LocalFiles/images/banner.jpg = 1367001862000
+LocalFiles/images/pic01.jpg = 1367001862000
+LocalFiles/css/style-mobile.css = 1370507038000
+LocalFiles/css/images/overlay.png = 1367001862000
+LocalFiles/css/fonts/fontawesome-webfont.woff = 1367001862000
+LocalFiles/js/jquery.dropotron.js = 1371732576000
+.settings/org.eclipse.wst.jsdt.ui.superType.name = 1376552298621
+LocalFiles/style1.css = 1376552298534
+LocalFiles/images/pic03.jpg = 1367001862000
+LocalFiles/css/style-desktop.css = 1367001862000
+LocalFiles/images/pic10.jpg = 1367001862000
+LocalFiles/left-sidebar.html = 1370506876000
+.project = 1376552298609
+LocalFiles/images/pic09.jpg = 1367001862000
+LocalFiles/images/pic05.jpg = 1367001862000
+LocalFiles/images/pic06.jpg = 1367001862000
+.mosyncproject.local = 1376552298820
+LocalFiles/images/pic08.jpg = 1367001862000
+LocalFiles/js/jquery.min.js = 1371659190000
+LocalFiles/css/fonts/fontawesome-social-webfont.svg = 1367001862000
+LocalFiles/css/fonts/fontawesome-webfont.eot = 1367001862000
+.settings/org.eclipse.wst.jsdt.ui.superType.container = 1376552298622
+LocalFiles/css/ie8.css = 1367001862000
+main.cpp = 1376552298564
+.build = 1376552298585
+Resources/Resources.lst = 1376552298540
+LocalFiles/css/skel-noscript.css = 1370688910000
+LocalFiles/no-sidebar.html = 1370506880000
+LocalFiles/css/style.css = 1370472970000
+LocalFiles/css/fonts/FontAwesome.otf = 1367001862000
+LocalFiles/js/config.js = 1370470600000
+LocalFiles/index1.html = 1376552298494
+LocalFiles/css/fonts/fontawesome-social-webfont.woff = 1367001862000
+Resources/LocalFiles.bin = 1376554034376
+
+[dependencies]
+/MobileDev/Resources/LocalFiles.bin = /MobileDev/LocalFiles
+/MobileDev/main.cpp = /MobileDev/Output/Release/Android/Android/main.s
+/MobileDev/Output/Release/Android/Android/resources = /MobileDev/Resources/LocalFiles.bin, /MobileDev/Resources/beep.wav
+/MobileDev/Resources/Resources.lst = /MobileDev/Output/Release/Android/Android/resources
+/MobileDev/Output/Release/Android/Android/MAHeaders.h = /MobileDev/Resources/Resources.lst
+/MobileDev/Output/Release/Android/Android/main.s = /MobileDev/main.cpp, /MobileDev/Output/Release/Android/Android/MAHeaders.h
+
+[build-properties]
+build.prefs:memory.heap/Debug = 3072
+build.prefs:additional.libraries/Debug = MAUtilD.lib, NativeUID.lib, MAFSD.lib, WormholeD.lib, yajlD.lib, NotificationD.lib
+com.mobilesorcery.sdk.html5.support = true
+template.id = project.wormhole.web
+build.prefs:additional.libraries = MAUtil.lib, NativeUI.lib, MAFS.lib, Wormhole.lib, yajl.lib, Notification.lib
+build.prefs:memory.stack/Release = 512
+build.prefs:memory.data/Debug = 4096
+build.prefs:memory.heap/Release = 3072
+build.prefs:memory.stack/Debug = 512
+profile.mgr.type = 0
+privileged.access.token = BF5080F69DBCEC820E0C0042A70EAAB0
+build.prefs:memory.data/Release = 4096
+
